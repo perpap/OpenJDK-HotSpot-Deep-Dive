@@ -5,7 +5,7 @@ Welcome to the OpenJDK HotSpot Deep Dive repository. This README serves as a gui
 
 ## Table of Contents
 1. [High Level Architecture](#chapter-1-high-level-architecture)
-2. [Runtime Systems](#chapter-2-runtime-systems)
+2. [Runtime System](#chapter-2-runtime-system)
 3. [JIT Compilation](#chapter-3-jit-compilation)
 4. [Garbage Collection](#chapter-4-garbage-collection)
 5. [Performance Tuning](#chapter-5-performance-tuning)
@@ -30,10 +30,29 @@ In this chapter, we explore the basics of OpenJDK HotSpot, its history, and its 
 
 ---
 
-## Chapter 2: Runtime Systems
+## Chapter 2: Runtime System
 In this chapter, we explore the HotSpot VM Runtime environment.
 
 - **Articles**
+  ## Constant pool
+  - [Understanding the constant pool inside a Java class file](https://blogs.oracle.com/javamagazine/post/java-class-file-constant-pool) by Andrew Binstock
+  ## Class Metadata
+  - [Java Objects Inside Out](https://shipilev.net/jvm/objects-inside-out/) by Aleksey Shipilёv
+  ## Bytecode Interpreter
+  - [A Matter of Interpretation: From Bytecodes to Machine Code in the JVM](https://www.azul.com/blog/a-matter-of-interpretation-from-bytecodes-to-machine-code-in-the-jvm/) by  Simon Ritter
+  ## Method Invocation
+  - [The Black Magic of (Java) Method Dispatch](https://shipilev.net/blog/2015/black-magic-method-dispatch/) by Aleksey Shipilёv
+  - [JVM Anatomy Quark #16: Megamorphic Virtual Calls](https://shipilev.net/jvm/anatomy-quarks/16-megamorphic-virtual-calls/) by Aleksey Shipilёv
+  - [Mastering the mechanics of Java method invocation](https://blogs.oracle.com/javamagazine/post/mastering-the-mechanics-of-java-method-invocation) by Ben Evans
+  - [Overview of CompiledIC and CompiledStaticCall](https://wiki.openjdk.org/display/HotSpot/Overview+of+CompiledIC+and+CompiledStaticCall) OpenJDK Wiki
+  - [Inline_caching](https://en.wikipedia.org/wiki/Inline_caching) Wikipedia
+  ## Synchronization
+  - [Java Memory Model Pragmatics](https://shipilev.net/blog/2014/jmm-pragmatics/) by Aleksey Shipilёv
+  - [Close Encounters of The Java Memory Model Kind](https://shipilev.net/blog/2016/close-encounters-of-jmm-kind/) by Aleksey Shipilёv
+  - [On The Fence With Dependencies](https://shipilev.net/blog/2014/on-the-fence-with-dependencies/) by Aleksey Shipilёv
+  - [All Fields Are Final](https://shipilev.net/blog/2014/all-fields-are-final/) by Aleksey Shipilёv
+  ## Thread Management
+  - [Stack Overflow handling in HotSpot JVM](https://pangin.pro/posts/stack-overflow-handling) by Andrei Pangin
 - **Books**
   - [Java Performance](https://www.amazon.com/Java-Performance-Charlie-Hunt/dp/0137142528) by Charlie Hunt
 - **Blogs**
@@ -46,11 +65,10 @@ In this chapter, we explore the HotSpot VM Runtime environment.
 This chapter delves into the Just-In-Time (JIT) compilation process of HotSpot, including how Java code is compiled into machine code at runtime.
 
 - **Articles**
-  - [How Tiered Compilation works in OpenJDK](https://devblogs.microsoft.com/java/how-tiered-compilation-works-in-openjdk/)
-  - [How the JIT compiler boosts Java performance in OpenJDK](https://developers.redhat.com/articles/2021/06/23/how-jit-compiler-boosts-java-performance-openjdk)
-  - [What the JIT!? Anatomy of the OpenJDK HotSpot VM](https://www.infoq.com/articles/OpenJDK-HotSpot-What-the-JIT/)
-  - [Understanding Java JIT Compilation with JITWatch](https://www.oracle.com/technical-resources/articles/java/architect-evans-pt1.html)
-  - [JIT Compilation in HotSpot VM](https://www.infoq.com/articles/Just-In-Time-Compilation/)
+  - [How Tiered Compilation works in OpenJDK](https://devblogs.microsoft.com/java/how-tiered-compilation-works-in-openjdk/) by Cesar Soares
+  - [How the JIT compiler boosts Java performance in OpenJDK](https://developers.redhat.com/articles/2021/06/23/how-jit-compiler-boosts-java-performance-openjdk) by Roland Westrelin
+  - [What the JIT!? Anatomy of the OpenJDK HotSpot VM](https://www.infoq.com/articles/OpenJDK-HotSpot-What-the-JIT/) by Monica Beckwith
+  - [Understanding Java JIT Compilation with JITWatch](https://www.oracle.com/technical-resources/articles/java/architect-evans-pt1.html) by Ben Evans
 - **Books**
   - [Java Performance](https://www.amazon.com/Java-Performance-Charlie-Hunt/dp/0137142528) by Charlie Hunt
 - **Blogs**
