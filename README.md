@@ -10,7 +10,6 @@ Welcome to the OpenJDK HotSpot Deep Dive repository. This README serves as a gui
 4. [Garbage Collection](#chapter-4-garbage-collection)
 5. [Performance Tuning](#chapter-5-performance-tuning)
 6. [Advanced Topics](#chapter-6-advanced-topics)
-7. [Community and Contributions](#chapter-7-community-and-contributions)
 
 ---
 
@@ -66,8 +65,10 @@ This chapter delves into the Just-In-Time (JIT) compilation process of HotSpot, 
 Explore the garbage collection mechanisms in HotSpot, including different GC algorithms and their impact on application performance.
 
 - **Articles**
-  - [Do It Yourself (OpenJDK) Garbage Collector](https://shipilev.net/jvm/diy-gc/) by Aleksey Shipilёv
   - [Tracing garbage collection](https://en.wikipedia.org/wiki/Tracing_garbage_collection) Wikipedia
+  - [Java garbage collection: The 10-release evolution from JDK 8 to JDK 18](https://blogs.oracle.com/javamagazine/post/java-garbage-collectors-evolution) by Thomas Schatzl
+  - [https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors](https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors)
+  - [Do It Yourself (OpenJDK) Garbage Collector](https://shipilev.net/jvm/diy-gc/) by Aleksey Shipilёv 
   - [Stages and levels of Java garbage collection](https://developers.redhat.com/articles/2021/08/20/stages-and-levels-java-garbage-collection) RedHat
   - [How the JVM uses and allocates memory ](https://developers.redhat.com/articles/2021/09/09/how-jvm-uses-and-allocates-memory) RedHat
   - [How to choose the best Java garbage collector](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector) RedHat
