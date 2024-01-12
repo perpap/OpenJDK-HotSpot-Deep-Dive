@@ -83,6 +83,6 @@ Explore the garbage collection mechanisms in HotSpot, including different GC alg
 - **Blogs**
 - **Videos**
 - **Code**
-  - [GC Implementation Samples](https://github.com/openjdk/jdk/tree/master/src/hotspot/share/gc)
+  - [HotSpot GC code](https://github.com/openjdk/jdk/tree/master/src/hotspot/share/gc)
 
 ---
