@@ -67,7 +67,7 @@ Explore the garbage collection mechanisms in HotSpot, including different GC alg
 - **Articles**
   - [Tracing garbage collection](https://en.wikipedia.org/wiki/Tracing_garbage_collection) Wikipedia
   - [Java garbage collection: The 10-release evolution from JDK 8 to JDK 18](https://blogs.oracle.com/javamagazine/post/java-garbage-collectors-evolution) by Thomas Schatzl
-  - [https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors](https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors)
+  - [https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors](https://blogs.oracle.com/javamagazine/post/understanding-garbage-collectors) by Christine H. Flood
   - [Do It Yourself (OpenJDK) Garbage Collector](https://shipilev.net/jvm/diy-gc/) by Aleksey Shipilёv 
   - [Stages and levels of Java garbage collection](https://developers.redhat.com/articles/2021/08/20/stages-and-levels-java-garbage-collection) RedHat
   - [How the JVM uses and allocates memory ](https://developers.redhat.com/articles/2021/09/09/how-jvm-uses-and-allocates-memory) RedHat
