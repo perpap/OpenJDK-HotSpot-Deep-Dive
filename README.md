@@ -93,9 +93,10 @@ Explore the garbage collection mechanisms in HotSpot, including different GC alg
   - [The Inner Workings of Safepoints](https://mostlynerdless.de/blog/2023/07/31/the-inner-workings-of-safepoints/) by Johannes Bechberger
   - [Where is my safepoint?](https://psy-lob-saw.blogspot.com/2014/03/where-is-my-safepoint.html) by Nitsan Wakart
   - [Safepoints: Meaning, Side Effects and Overheads](https://psy-lob-saw.blogspot.com/2015/12/safepoints.html) by Nitsan Wakart
+  - [JVM Anatomy Quark #22: Safepoint Polls](https://shipilev.net/jvm/anatomy-quarks/22-safepoint-polls/) by Aleksey Shipilёv
   - [The JVM Write Barrier - Card Marking](https://psy-lob-saw.blogspot.com/2014/10/the-jvm-write-barrier-card-marking.html) by Nitsan Wakart
   - [Card Table Card Size Shenanigans](https://tschatzl.github.io/2022/02/15/card-table-card-size.html) by Thomas Schatzl
-  - [JVM Pauses - It's more than GC](https://blanco.io/blog/jvm-safepoint-pauses/#fn:1) by Zac Blanco
+  - [JVM Pauses - It's more than GC](https://blanco.io/blog/jvm-safepoint-pauses/) by Zac Blanco
 - **Books**
   - [The Garbage Collection Handbook. The Art of Automatic Memory Management (2023, CRC Press)](https://www.amazon.com/Garbage-Collection-Handbook-International-Perspectives/dp/1032218037) by Richard Jones, Antony Hosking, Eliot Moss 
 - **Blogs**
