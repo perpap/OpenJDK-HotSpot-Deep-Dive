@@ -6,7 +6,7 @@
 1. [Method entry/exit](#method-entry/exit)
 2. [Field accesses (interpreter)](#field-accesses-(interpreter))
 3. [Field accesses (ZGC)](#chapter-3-jit-compilation)
-4. [Locks](wip)
+4. [Locks](#chapter-3-jit-compilation)
 
 ---
 
