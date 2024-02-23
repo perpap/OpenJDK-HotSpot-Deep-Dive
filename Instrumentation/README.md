@@ -42,6 +42,13 @@ void SharedRuntime::method_entry(JavaThread *thread, Method *method);
 
 ## Field accesses (interpreter)
 
+### Warning
+It is important to run with `-Xint` to ensure that **only** the interpreter is used.
+
+The `JIT` compiler may eventually optimize the code, resulting in less field accesses via the interpreter.
+
+### Load/Store fields
+
 - `src/hotspot/cpu/x86/templateTable_x86.cpp`
 ```c++
 void TemplateTable::getfield_or_static(int byte_no, bool is_static, RewriteControl rc) {
