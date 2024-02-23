@@ -3,9 +3,9 @@
 **Every section assumes `x86` architecture, if you are working on something else, the functions are similar but be careful with the registers you decide to use**
 
 ## Table of Contents
-1. [Method entry/exit](#method-entry/exit)
-2. [Field accesses (interpreter)](#field-accesses-(interpreter))
-3. [Field accesses (ZGC)](#chapter-3-jit-compilation)
+1. [Method entry/exit](#method-entryexit)
+2. [Field accesses (interpreter)](#field-accesses-interpreter)
+3. [Field accesses (ZGC)](#field-accesses-zgc)
 4. [Locks](#chapter-3-jit-compilation)
 
 ---
